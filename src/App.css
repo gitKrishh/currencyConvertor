@@ -20,12 +20,28 @@ html, body {
 }
 
 #heading{
-  color: #819A91;
-
+  color: #657871;
+  text-decoration: underline;
 }
 
 #convert{
   width: 500px;
   height: 40px;
   margin: 5px;
+  background: #93aa94;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #819A91;
+  font-size: large;
+}
+
+#swap{
+  width: 70px;
+  height: 40px;
+  margin: 5px;
+  background: #93aa94;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #819A91;
+  font-size: large;
 }

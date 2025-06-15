@@ -14,6 +14,12 @@ function App() {
   const convert = () => {
     setconverted(amount * currencyOptions[to])
   }
+  const swap = ()=>{
+    setfrom(to)
+    setto(from)
+    setamount(converted)
+    setconverted(amount)
+  }
 
   return (
     <>
@@ -28,6 +34,13 @@ function App() {
       onCurrencyChange={(currency)=> setfrom(currency)}
       currencyOptions={option}
       />
+
+      <button
+      id='swap'
+      onClick={swap}
+      >
+        Swap
+      </button>
       
       
       <InputBox
