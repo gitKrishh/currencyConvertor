@@ -1,0 +1,17 @@
+#mainInputBox{
+    height: 100px;
+    width: 500px;
+    background-color: #A7C1A8;
+    display: flex;
+    justify-content: space-between;
+}
+
+#from{
+    display: flex;
+    flex-direction: column;
+}
+
+#chooseCurrency{
+    display: flex;
+    flex-direction: column;
+}
