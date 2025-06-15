@@ -23,3 +23,9 @@ html, body {
   color: #819A91;
 
 }
+
+#convert{
+  width: 500px;
+  height: 40px;
+  margin: 5px;
+}
